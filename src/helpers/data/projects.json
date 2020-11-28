@@ -1,0 +1,62 @@
+{
+  "project1": 
+    {
+      "title": "Sorting Hat", 
+      "screenshot": "images/sorting-hat.png", 
+      "description": "The user enters a student name and a card is generated with the name entered and a random assignment to one of the four Hogwarts Houses.", 
+      "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://sorting-hat-by-kait.netlify.app/", 
+      "githubUrl": "https://github.com/kaitvan/sorting-hat"
+    },
+  "project2":
+    {
+      "title": "Pet Adoption Site", 
+      "screenshot": "images/pet-adoption.png", 
+      "description": "The site shows available pet information on individual cards and the user can filter available pets by type.", 
+      "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://pet-adoption-by-kait.netlify.app/", 
+      "githubUrl": "https://github.com/kaitvan/pet-adoption"
+    },
+  "project3":
+    {
+      "title": "Cool Project", 
+      "screenshot": "https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/media/images/more-info-ctas-homepage-adjust.jpg?cuz35Lr2MESIFEs86KqaQzZM_MTPdpRW&itok=HtiZcxZC", 
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    },
+  "project4":
+    {
+      "title": "Another Cool Project", 
+      "screenshot": "https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/media/images/more-info-ctas-homepage-adjust.jpg?cuz35Lr2MESIFEs86KqaQzZM_MTPdpRW&itok=HtiZcxZC", 
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    },
+  "project5":
+    {
+      "title": "Another Cool Project", 
+      "screenshot": "https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/media/images/more-info-ctas-homepage-adjust.jpg?cuz35Lr2MESIFEs86KqaQzZM_MTPdpRW&itok=HtiZcxZC", 
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    },
+  "project6":
+    {
+      "title": "Another Cool Project", 
+      "screenshot": "https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/media/images/more-info-ctas-homepage-adjust.jpg?cuz35Lr2MESIFEs86KqaQzZM_MTPdpRW&itok=HtiZcxZC", 
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    }
+}
