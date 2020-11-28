@@ -33,7 +33,7 @@ const Navigation = (props) => {
               <Link className='nav-link' to='/portfolio'>Portfolio</Link>
             </NavItem>
             <NavItem>
-              <Link className='nav-link last-nav' to='/contact'>Contact</Link>
+              <Link className='nav-link' to='/contact'>Contact</Link>
             </NavItem>
           </Nav>
         </Collapse>

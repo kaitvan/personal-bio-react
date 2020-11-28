@@ -3,7 +3,7 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: $warmgray;
+  background-color: $coolgray;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -22,10 +22,6 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-.last-nav {
-  margin-right: 8vw;
-}
-
 .main {
   position: relative;
   top: 20vh;
@@ -37,7 +33,7 @@ body {
 }
 
 .nav {
-  padding: 0;
+  margin-right: 8vw;
 }
 
 .title {
@@ -87,8 +83,8 @@ body {
 }
 
 .project-card {
-  width: 32%;
   min-width: 300px;
+  max-width: 32%;
   display: block;
   min-height: 300px;
 } 

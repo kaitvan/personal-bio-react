@@ -1,13 +1,13 @@
 {
   "project1": 
     {
-      "title": "Sorting Hat", 
+      "title": "Pinterest Look-Alike", 
       "screenshot": "images/sorting-hat.png", 
-      "description": "The user enters a student name and a card is generated with the name entered and a random assignment to one of the four Hogwarts Houses.", 
-      "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
-      "available": true,
+      "description": "Users curate a collection of pins organized onto boards.", 
+      "technologiesUsed": "React, JavaScript, SASS, Firebase",
       "url": "https://sorting-hat-by-kait.netlify.app/", 
-      "githubUrl": "https://github.com/kaitvan/sorting-hat"
+      "githubUrl": "https://github.com/kaitvan/sorting-hat",
+      "groupProject": false
     },
   "project2":
     {
@@ -17,7 +17,8 @@
       "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
       "available": true,
       "url": "https://pet-adoption-by-kait.netlify.app/", 
-      "githubUrl": "https://github.com/kaitvan/pet-adoption"
+      "githubUrl": "https://github.com/kaitvan/pet-adoption",
+      "groupProject": false
     },
   "project3":
     {
@@ -27,7 +28,8 @@
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "groupProject": false
     },
   "project4":
     {
@@ -37,7 +39,8 @@
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "groupProject": false
     },
   "project5":
     {
@@ -47,7 +50,8 @@
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "groupProject": false
     },
   "project6":
     {
@@ -57,6 +61,18 @@
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "groupProject": false
+    },
+  "project7": 
+    {
+      "title": "Sorting Hat", 
+      "screenshot": "images/sorting-hat.png", 
+      "description": "The user enters a student name and a card is generated with the name entered and a random assignment to one of the four Hogwarts Houses.", 
+      "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://sorting-hat-by-kait.netlify.app/", 
+      "githubUrl": "https://github.com/kaitvan/sorting-hat",
+      "groupProject": false
     }
 }
