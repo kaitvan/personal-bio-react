@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
 import Photo from '../assets/kaitvan-professional-photo.jpeg';
+import Technology from '../components/Technology';
 
 class About extends Component {
+  technologies = ['HTML', 'CSS', 'JavaScript', 'jQuery', 'SASS', 'Firebase', 'Flexbox', 'Bootstrap', 'React'];
+
   render() {
+    const showTechnologies = () => (
+      this.technologies.map((skill) => <Technology skill={skill}/>)
+    );
+
     return (
       <div className='main'>
         <h1 className='title'>Hi, I'm Kaitlyn. Nice to meet you.</h1>
@@ -14,6 +21,9 @@ class About extends Component {
           </div>
           <div className='about-photo'>
             <img className='photo' src={Photo} alt='Kaitlyn'/>
+            <div className='d-flex flex-wrap justify-content-end mt-4 ml-5'>
+              {showTechnologies()}
+            </div>
           </div>
         </div>
       </div>
