@@ -1,0 +1,148 @@
+@import 'variables';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+body {
+  background-color: $warmgray;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+  height: 84px;
+  position: fixed;
+  top: 14px;
+  margin-left: 8vw;
+}
+
+.navbar-collapse {
+  text-align: right;
+}
+
+.nav-link {
+  font-family: 'Nunito', sans-serif;
+}
+
+.last-nav {
+  margin-right: 8vw;
+}
+
+.main {
+  position: relative;
+  top: 20vh;
+  margin-left: 11vw;
+  margin-right: 11vw;
+  width: 78vw;
+  color: $cadet;
+  text-align: left;
+}
+
+.nav {
+  padding: 0;
+}
+
+.title {
+  font-family: 'Noto Serif JP', serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding-bottom: 40px;
+}
+
+.home {
+  font-size: 4rem;
+}
+
+.text {
+  font-family: 'Nunito', sans-serif;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about p {
+  padding: 5px;
+}
+
+.photo {
+  width: 20vw;
+  border-radius: 10px 90px 10px;
+  margin-left: 10vw;
+}
+
+.technologies ul {
+  list-style-type: none;
+}
+
+.technologies li {
+  background-color: $ashblue;
+  color: white;
+}
+
+.technologies {
+  width: 40%;
+  padding-top: 40px;
+}
+
+.card-image {
+  object-fit: cover;
+  height: 100%;
+}
+
+.project-card {
+  width: 30vw;
+  display: block;
+  height: 100%;
+} 
+
+.card-body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: $cadet;
+}
+
+.project-card:hover {
+  .card-body {
+    opacity: 1;
+  }
+  .view-project {
+    background-color: $coral;
+  }
+  .card-title {
+    color: $coral;
+  }
+}
+
+.card-text {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  background-color: $ashblue;
+  color: white;
+  border-radius: 5px 20px 5px;
+}
+
+.contact-icon:hover {
+  background-color: $coral;
+}
+
+.icon {
+  position: relative;
+  color: white;
+}
+
+.contact-container {
+  font-family: 'Nunito', sans-serif;
+}
