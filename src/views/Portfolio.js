@@ -24,7 +24,7 @@ class Portfolio extends Component {
       <div className='main'>
         <h1 className='title'>Portfolio</h1>
         <p className='text'></p>
-        <div className='d-flex'>{showProjects()}</div>
+        <div className='d-flex flex-wrap justify-content-between'>{showProjects()}</div>
       </div>
     );
   }

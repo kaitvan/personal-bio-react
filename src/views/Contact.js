@@ -7,7 +7,7 @@ class Contact extends Component {
       <div className='main'>
         <h1 className='title'>Let's be internet friends.</h1>
         <Container className='contact-container'>
-          <Row className='mt-5'>
+          <Row className='mt-3'>
             <Col xs='1'>
               <div className='contact-icon d-flex justify-content-center align-items-center'>
                 <a href='https://www.linkedin.com/in/kait-van'><i className="fab fa-linkedin-in icon fa-2x"></i></a>

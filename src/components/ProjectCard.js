@@ -8,7 +8,7 @@ class ProjectCard extends Component {
   render() {
     const { project } = this.props;
     return (
-      <div>
+      <>
         <Card className='project-card m-1'>
           <CardImg className='card-image' top width="100%" src={project.screenshot} alt="Card image cap" />
           <CardBody className='card-body'>
@@ -19,7 +19,7 @@ class ProjectCard extends Component {
             </div>
           </CardBody>
         </Card>
-      </div>
+      </>
     );
   }
 }

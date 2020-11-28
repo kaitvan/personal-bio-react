@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 
-class About extends Component {
-  technologies = [
-    
-  ]
+class Technology extends Component {
   render() {
-    showTech = () => {
-
-    }
     return (
-      
+      <div className='technology'>
+        <p>{this.props.skill}</p>
+      </div>
     );
   }
 }
 
-export default About;
+export default Technology;
