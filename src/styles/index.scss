@@ -1,39 +1,26 @@
 @import 'variables';
+@import 'projectCards';
+@import 'navbar';
+@import 'icons';
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: $coolgray;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.logo {
-  height: 84px;
-  position: fixed;
-  top: 14px;
-  margin-left: 8vw;
-}
-
-.navbar-collapse {
-  text-align: right;
-}
-
-.nav-link {
+  background-color: white;
   font-family: 'Nunito', sans-serif;
 }
 
+#root {
+  margin-top: 112px;
+}
+
 .main {
-  position: relative;
-  top: 20vh;
+  padding-top: 50px;
   margin-left: 11vw;
   margin-right: 11vw;
   width: 78vw;
   color: $cadet;
   text-align: left;
-}
-
-.nav {
-  margin-right: 8vw;
 }
 
 .title {
@@ -75,65 +62,6 @@ body {
 
 .technology p {
   margin: auto;
-}
-
-.card-image {
-  object-fit: cover;
-  height: 100%;
-}
-
-.project-card {
-  min-width: 300px;
-  max-width: 32%;
-  display: block;
-  min-height: 300px;
-} 
-
-.card-body {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: $cadet;
-}
-
-.project-card:hover {
-  .card-body {
-    opacity: 1;
-  }
-  .view-project {
-    background-color: $coral;
-  }
-  .card-title {
-    color: $coral;
-  }
-}
-
-.card-text {
-  color: white;
-  font-family: 'Nunito', sans-serif;
-}
-
-.contact-icon {
-  width: 50px;
-  height: 50px;
-  background-color: $ashblue;
-  color: white;
-  border-radius: 5px 20px 5px;
-}
-
-.contact-icon:hover {
-  background-color: $coral;
-}
-
-.icon {
-  position: relative;
-  color: white;
 }
 
 .contact-container {

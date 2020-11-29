@@ -15,8 +15,8 @@ const Navigation = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar className='navbar' color="light" light expand="md">
+    <>
+      <Navbar className='fixed-top' color="light" light expand="md">
         <Link className='nav-link' to='/'>
           <img className='logo' src={Logo} alt='k logo' />
         </Link>
@@ -38,7 +38,9 @@ const Navigation = (props) => {
           </Nav>
         </Collapse>
       </Navbar>
-    </div>
+      <div className='fixed-top-margin'></div>
+      <div className='fixed-top-margin-gradient'></div>
+    </>
   );
 };
 
