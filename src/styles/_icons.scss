@@ -1,0 +1,16 @@
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  background-color: $ashblue;
+  color: white;
+  border-radius: 5px 20px 5px;
+}
+
+.contact-icon:hover {
+  background-color: $coral;
+}
+
+.icon {
+  position: relative;
+  color: white;
+}

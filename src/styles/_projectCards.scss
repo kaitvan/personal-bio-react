@@ -1,0 +1,45 @@
+.card-image {
+  object-fit: cover;
+  height: 100%;
+}
+
+.project-card {
+  width: 32%;
+  min-height: 300px;
+} 
+
+.card-body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: $cadet;
+  .view-project {
+    background-color: $ashblue;
+    position: absolute;
+    bottom: 15px;
+  }
+  .card-title {
+    color: $ashblue;
+  }
+}
+
+a.view-project:hover {
+  background-color: $coral;
+}
+
+.project-card:hover {
+  .card-body {
+    opacity: 1;
+  }
+}
+
+.card-text {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
