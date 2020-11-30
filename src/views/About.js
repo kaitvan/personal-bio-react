@@ -3,7 +3,7 @@ import Photo from '../assets/kaitvan-professional-photo.jpeg';
 import Technology from '../components/Technology';
 
 class About extends Component {
-  technologies = ['HTML', 'CSS', 'JavaScript', 'jQuery', 'SASS', 'Firebase', 'Flexbox', 'Bootstrap', 'React'];
+  technologies = ['React', 'JavaScript', 'Bootstrap', 'CSS', 'HTML', 'jQuery', 'SASS', 'Firebase'];
 
   render() {
     const showTechnologies = () => (
