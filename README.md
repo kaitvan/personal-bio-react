@@ -1,7 +1,7 @@
 # Personal Bio Site
 
 This site showcases my work throughout my program at Nashville Software School. 
-
+[!Portfolio Screenshot](https://user-images.githubusercontent.com/63985074/100635929-bda54280-32f6-11eb-9744-10e19c0721e6.png)
 
 ## Site Link
 
