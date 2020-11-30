@@ -19,17 +19,17 @@
   opacity: 0;
   transition: .5s ease;
   background-color: $cadet;
-  .view-project {
+  .project-btn {
     background-color: $ashblue;
-    position: absolute;
-    bottom: 15px;
   }
   .card-title {
     color: $ashblue;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
-a.view-project:hover {
+a.project-btn:hover {
   background-color: $coral;
 }
 
@@ -42,4 +42,9 @@ a.view-project:hover {
 .card-text {
   color: white;
   font-family: 'Nunito', sans-serif;
+}
+
+.btn-container {
+  position: absolute;
+  bottom: 15px;
 }
